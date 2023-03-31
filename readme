@@ -1,0 +1,25 @@
+Dask Project
+
+This project explores the use of Dask's delayed and futures API for parallel programming in Python. Dask is a flexible parallel computing library for analytic computing that enables parallel computations on larger-than-memory datasets.
+
+Getting Started
+
+To get started with this project, you will need to have Dask installed on your system. You can find more information on installing Dask on the official Dask website.
+
+Project Structure
+
+delayedpi.py contains an example of estimating the mathematical constant π using the Dask delayed API.
+futurepi.py contains a similar example of estimating π, but this time using the Dask futures API and the map function to introduce parallelism.
+updatestarter.sh is a shell script that can be run to update the project starter code.
+How to Run
+
+To run the delayedpi.py or futurepi.py scripts, simply execute them with Python 3. You can specify the number of simulations to run for estimating π by passing an argument to the pi function. For example:
+
+ruby
+Copy code
+$ python3 futurepi.py 1000000
+This will estimate π using 1,000,000 simulations.
+
+License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
