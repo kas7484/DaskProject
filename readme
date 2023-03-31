@@ -8,15 +8,10 @@ To get started with this project, you will need to have Dask installed on your s
 
 Project Structure
 
-delayedpi.py contains an example of estimating the mathematical constant π using the Dask delayed API.
-futurepi.py contains a similar example of estimating π, but this time using the Dask futures API and the map function to introduce parallelism.
-updatestarter.sh is a shell script that can be run to update the project starter code.
-How to Run
 
-To run the delayedpi.py or futurepi.py scripts, simply execute them with Python 3. You can specify the number of simulations to run for estimating π by passing an argument to the pi function. For example:
+To run the scripts, simply execute them with Python 3. You can specify the number of simulations to run for estimating π by passing an argument to the pi function. For example:
 
-ruby
-Copy code
+
 $ python3 futurepi.py 1000000
 This will estimate π using 1,000,000 simulations.
 
